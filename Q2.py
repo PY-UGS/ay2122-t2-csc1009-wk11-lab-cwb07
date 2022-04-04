@@ -32,19 +32,19 @@ c = clockTime()
 #get user input for hours, minutes, seconds
 hours = input("Enter your hours: ")
 
-while int(hours) > 24 or int(hours) < 0:
+while int(hours) > 23 or int(hours) < 0:
     print("Please enter a value between 0-24.")
     hours = input("Enter your hours: ")
 
 minutes = input("Enter your minutes: ")
 
-while int(minutes) > 60 or int(minutes) < 0:
+while int(minutes) > 59 or int(minutes) < 0:
     print("Please enter a value between 0-60.")
     minutes = input("Enter your minutes: ")
 
 seconds = input("Enter your seconds: ")
 
-while int(seconds) > 60 or int(seconds) < 0:
+while int(seconds) > 59 or int(seconds) < 0:
     print("Please enter a value between 0-60.")
     seconds = input("Enter your seconds: ")
 
