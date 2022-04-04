@@ -46,7 +46,7 @@ seconds = input("Enter your seconds: ")
 
 while int(seconds) > 60 or int(seconds) < 0:
     print("Please enter a value between 0-60.")
-    seconds = input("Enter your minutes: ")
+    seconds = input("Enter your seconds: ")
 
 #set object time
 c.setTime(hours, minutes, seconds)
